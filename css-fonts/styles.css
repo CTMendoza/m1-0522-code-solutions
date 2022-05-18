@@ -1,0 +1,13 @@
+h1 {
+  font-family: 'Source Code Pro', monospace; ;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6em;
+}
