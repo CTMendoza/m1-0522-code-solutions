@@ -1,0 +1,66 @@
+h1 {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fe6053;
+  text-align: center;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 7px;
+}
+
+select {
+  width: 438px;
+  height: 41px;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #edede9;
+  border-radius: 5px;
+  border-color: #ced4da;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  padding: 0 1067px;
+  border: none;
+  text-align: left;
+}
+
+fieldset > div:last-child {
+  text-align: right;
+}
+
+.form-style {
+  width: 438px;
+  height: 40px;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 17px;
+  border-radius: 5px;
+  border: #ced4da solid 1px;
+}
+
+#submit-bttn {
+  border-radius: 86px;
+  width: 98px;
+  height: 38px;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #fe6053;
+  border-color: #fe6053;
+  border-style: none;
+}
+
+#container {
+  margin: auto;
+  text-align: center;
+}
