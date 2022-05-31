@@ -1,0 +1,276 @@
+.container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-one-half {
+  flex-basis: calc(100% / 2);
+}
+
+.col-one-third {
+  flex-basis: 360px;
+}
+
+.col-two-third {
+  flex-basis: 66%;
+}
+
+.col-one-sixth {
+  flex-basis: 16.66%;
+}
+
+.col-one-fourth {
+  flex-basis: 25%;
+}
+
+.col-three-fourth {
+  flex-basis: 75%;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.top-margin {
+  margin-top: 40px;
+}
+
+.bottom-margin {
+  margin-bottom: 40px;
+}
+
+.right-left-margin {
+  margin-right: 68px;
+  margin-left: 68px;
+}
+
+.ready-margin {
+  margin-right: 137px;
+  margin-left: 137px;
+  margin-bottom: 30px;
+}
+
+.header-style {
+  border-bottom-style: inset;
+  padding-bottom: 13px;
+  border-width: 1px;
+}
+
+.contact-us-style {
+  background-color: #002855;
+  color: white;
+  text-decoration: none;
+  font-family:
+    Avenir,
+    sans-serif;
+  font-style: normal;
+  height: 40px;
+  width: 104px;
+  border-radius: 5px;
+  border: none;
+}
+
+.get-started-style {
+  background-color: #002855;
+  color: white;
+  text-decoration: none;
+  font-family:
+    Avenir,
+    sans-serif;
+  font-style: normal;
+  font-size: 94%;
+  height: 40px;
+  width: 169px;
+  border-radius: 5px;
+  border: none;
+}
+
+.background-img {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+}
+
+.summary-height {
+  height: 530px;
+}
+
+.summary-margin-left {
+  margin-left: 50px;
+}
+
+.img-overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 45%));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.line-height {
+  line-height: 1.5rem;
+}
+
+.p-font-summary {
+  font-family:
+    Avenir,
+    sans-serif;
+  font-size: 90%;
+  color: white;
+}
+
+.p-font-prefer {
+  font-family:
+    Avenir,
+    sans-serif;
+}
+
+.p-font-ready {
+  font-family:
+    Avenir,
+    sans-serif;
+  font-size: 84%;
+}
+
+.p-font-info {
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+}
+
+.p-font-address {
+  font-family:
+    Avenir,
+    sans-serif;
+  src: url("avenir.woff2") format("woff2");
+  font-weight: lighter;
+  font-size: 90%;
+  color: white;
+  text-decoration: none;
+}
+
+.info-background-color {
+  background-color: #333533;
+}
+
+.info-height {
+  height: 400px;
+}
+
+.footer-height {
+  height: 95px;
+}
+
+.info-top-padding {
+  padding-top: 95px;
+}
+
+.info-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.info-padding-left-column {
+  padding-left: 125px;
+  padding-top: 19px;
+}
+
+.p-style-prefer {
+  margin: 0 18%;
+}
+
+.background-color-prefer {
+  background-color: rgb(188 184 170 / 5%);
+}
+
+.background-color-footer {
+  background-color: rgb(188 184 170 / 5%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-canvas {
+  width: 81%;
+  padding-right: 74px;
+}
+
+.a-info {
+  width: 79px;
+}
+
+.margin-left-privacy {
+  margin-left: 12%;
+}
+
+.margin-left-contact {
+  margin-left: 4%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: #9999a1;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Tiempos Headline", sans-serif;
+  color: white;
+  font-weight: normal;
+}
+
+h2 {
+  font-family:
+    "Tiempos Headline",
+    sans-serif;
+  color: black;
+  font-weight: normal;
+}
