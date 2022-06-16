@@ -1,4 +1,9 @@
 /* exported capitalizeWord */
+// define function capitalizeword
+// declare one parameter word
+// assign an empty string to three new variables
+// assign the length of the paramter word to a new variable
+// check if the word parameter is strictly equal to the string 'JAVASCRIPT'
 function capitalizeWord(word) {
   var newString = '';
   var wordLength = word.length;
