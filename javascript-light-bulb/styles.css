@@ -1,0 +1,31 @@
+.flex-row {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.background-color-yellow {
+  background-color: #fff7ed;
+}
+
+.background-color-black {
+  background-color: #1d1d1d;
+}
+
+.lightbulb {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: none;
+}
+
+.lightbulb.yellow {
+  background-color: #fae68d;
+  box-shadow: 0 -5px 60px #fae68d;
+}
+
+.lightbulb.black {
+  background-color: #313131;
+  box-shadow: 0 -1px 8px 17px #1a1a1a;
+}
