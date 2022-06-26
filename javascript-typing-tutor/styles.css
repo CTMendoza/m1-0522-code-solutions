@@ -1,0 +1,28 @@
+.flex-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 22%;
+}
+
+.font {
+  font-family:
+    Arvo,
+    serif;
+}
+
+.under-line {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: black;
+}
+
+.wrong {
+  color: red;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: red;
+}
+
+.correct {
+  color: rgb(50 245 50);
+}
